@@ -1,0 +1,7 @@
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+ <echo message="Deleting old ProxyDataSourcePOC.xml file"/>
+ <delete file="c:/apps/tomcat/conf/Catalina/localhost/InnerWorkingsMvn.xml"/>
+</target>
+
+</project>
